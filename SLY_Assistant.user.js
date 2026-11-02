@@ -20,8 +20,10 @@
     'use strict';
 
     //Used for reading solana data
-    let customReadRPCs = [];
-
+    let customReadRPCs = [
+		'https://mainnet.helius-rpc.com/?api-key=77b49bcc-9942-45e3-87fd-6266da0ec106',
+	];
+	
     //Used for pushing transactions to solana chain
     let customWriteRPCs = [
 		'https://mainnet.helius-rpc.com/?api-key=77b49bcc-9942-45e3-87fd-6266da0ec106',
@@ -29,6 +31,7 @@
 
     let saRPCs = [
         'https://rpc.ironforge.network/mainnet?apiKey=01JEEEQP3FTZJFCP5RCCKB2NSQ',
+		'https://mainnet.helius-rpc.com/?api-key=77b49bcc-9942-45e3-87fd-6266da0ec106',
     ];
     let readRPCs = customReadRPCs.concat(saRPCs);
     let writeRPCs = customWriteRPCs.concat(saRPCs);
