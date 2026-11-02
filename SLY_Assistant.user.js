@@ -23,7 +23,9 @@
     let customReadRPCs = [];
 
     //Used for pushing transactions to solana chain
-    let customWriteRPCs = [];
+    let customWriteRPCs = [
+		'https://mainnet.helius-rpc.com/?api-key=77b49bcc-9942-45e3-87fd-6266da0ec106',
+	];
 
     let saRPCs = [
         'https://rpc.ironforge.network/mainnet?apiKey=01JEEEQP3FTZJFCP5RCCKB2NSQ',
